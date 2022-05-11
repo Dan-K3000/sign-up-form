@@ -23,7 +23,7 @@ body {
   justify-content: space-between;
   background-size: cover;
   background-position: center;
-  background-image: url(/images/neon.jpg);
+  background-image: url(images/neon.jpg);
   box-shadow: 0px 0px 50px 5px black;
   border-radius: 50px 0 0 50px;
 }
