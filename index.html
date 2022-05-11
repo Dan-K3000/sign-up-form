@@ -5,9 +5,65 @@
   <title>Sign-up Form</title>
   <link rel="stylesheet" href="normalize.css">
   <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
+  <link rel="shortcut icon" href="/images/icons8-illuminati-32.png" type="image/x-icon">
+  <script src="script.js" defer></script>
 </head>
 <body>
+  <div class="container">
+    <div class="sidebar">
+      <div class="logoContainer">
+        <img src="images/icons8-illuminati-96.png" alt="eye see you" class="logo">
+      </div>
+      <div class="credit">Photo by Aleksandar Pasaric on Pexels</div>
+    </div>
 
+    <div class="bodyContainer">
+      <div class="header"> I’m sick and tired of being called 'mortal' like, you don’t
+        know that. Neither do I. I have never died even ONCE. Nothing has been proven
+        yet. Stop making assumptions. It’s rude. </div>
+      <div class="signupContainer">
+        <form action="/nowhere" method="post">
+          <ul>
+            <li>
+              <label for="name">First Name:</label>
+              <input type="text" name="user_name" id="name">
+            </li>
+
+            <li>
+              <label for="email">Email:</label>
+              <input type="email" name="user_email" id="email">
+            </li>
+            <li>
+              <label for="password">Password:</label>
+              <input type="password" name="user_password" class="error" id="password">
+            </li>
+          </ul>
+
+          <ul>
+            <li>
+              <label for="surname">Last Name:</label>
+              <input type="text" name="user_surname" id="surname">
+            </li>
+            <li>
+              <label for="Phone">Phone Number:</label>
+              <input type="tel" name="user_phone" id="phone">
+            </li>
+            <li>
+              <label for="passwordConfirm">Confirm Password:</label>
+              <input type="password" name="user_passwordConform" class="error" id="passwordConfirm">
+            </li>
+          </ul>
+        </form>
+      </div>
+      <div class="footer">
+
+        <form action="/nowhere" method="post">
+          <button type="submit">Submit</button>
+        </form>
+        <div class="login">Already have an account? <a href="/nowhere" target="_blank" rel="noopener noreferrer">Log in</a></div>
+        <div class="errorMessage">* Passwords do not Match</div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
